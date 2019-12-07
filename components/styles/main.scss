@@ -1,0 +1,36 @@
+$font-size: 50px;
+.example {
+  font-size: $font-size;
+}
+
+#main_container {
+  position: relative;
+  height: 100%;
+  display: block;
+}
+
+#main_header_container {
+  padding: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_container {
+  height: 80px;
+  width: 150px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-image: url("../images/login_welcome_logo.png");
+}
+
+.body_container {
+  padding: 5px 10px;
+  position: relative;
+  height: 100%;
+  display: block;
+}

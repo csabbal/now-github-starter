@@ -1,0 +1,115 @@
+body {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #4f4f4f;
+  position: absolute;
+}
+
+a {
+  text-decoration: none;
+}
+
+#__next {
+  display: block;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.general_title_font_style {
+  font-size: 18px;
+  color: #fff;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  padding: 10px;
+}
+
+.general_font_style {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.button_container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.text_field_container {
+  padding: 5px 30px 0px 30px;
+  min-width: 170px;
+  border-radius: 30px;
+  background: #656565;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+.row_container {
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.column_container {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.text_field_container.login_text_field .MuiInput-underline:before {
+  border-bottom: 0px;
+}
+.text_field_container.login_text_field .MuiInput-underline:after {
+  border-bottom: 0px;
+}
+
+.text_field_container.login_text_field .MuiFormControl-root {
+  height: 40px;
+}
+
+.text_field_container.login_text_field
+  .MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: 0px;
+}
+
+.text_field_container.login_text_field label + .MuiInput-formControl {
+  margin-top: 0px;
+}
+
+.text_field_container.login_text_field
+  .MuiInputLabel-formControl.MuiFormLabel-filled {
+  position: relative;
+  transform: translate(0, 0px) scale(1);
+  font-size: 10px;
+  color: #80aa36;
+}
+
+.text_field_container.login_text_field .MuiInputLabel-formControl.Mui-focused {
+  position: relative;
+  transform: translate(0, 0px) scale(1);
+  font-size: 10px;
+  color: #80aa36;
+}
+
+.text_field_container.login_text_field .MuiInputLabel-formControl {
+  position: relative;
+  /* transform: none; */
+  transform: translate(0, 12px) scale(1);
+  font-size: 12px;
+  color: #80aa36;
+}
+
+.text_field_container.login_text_field .MuiInputBase-input {
+  color: #fff;
+  padding: 0px;
+  height: 30px;
+  font-size: 12px;
+}
+
+.text_field_container.login_text_field .MuiFormLabel-root.Mui-focused {
+  color: #80aa36;
+}
